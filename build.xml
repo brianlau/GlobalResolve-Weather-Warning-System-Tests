@@ -67,6 +67,11 @@
             -pre-clean
     -->
     <import file="custom_rules.xml" optional="true" />
+    <javac srcdir="src/" destdir="build/classes" debug="true" includeantruntime="true">
+  <classpath>
+    <path id="org.junit" location="c:/eclipse/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar" /> <!-- not sure if you need this -->
+  </classpath>
+</javac>
 
     <!-- Import the actual build file.
 
