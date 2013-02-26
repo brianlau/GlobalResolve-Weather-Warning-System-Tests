@@ -1,7 +1,6 @@
 package com.example.globalresovlewws.Tests;
 
 import java.util.List;
-
 import android.content.Context;
 import android.test.AndroidTestCase;
 import com.example.globalresovlewws.DatabaseHandler;

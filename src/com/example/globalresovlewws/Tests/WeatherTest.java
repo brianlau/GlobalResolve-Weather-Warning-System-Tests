@@ -1,11 +1,12 @@
 package com.example.globalresovlewws.Tests;
 
-import static org.junit.Assert.*;
+
+import junit.framework.TestCase;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import com.example.globalresovlewws.Weather;
 
-public class WeatherTest {
+public class WeatherTest extends TestCase {
 	private static Weather weather1;
 	private static Weather weather2;
 
